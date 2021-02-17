@@ -1,3 +1,25 @@
+# Teste
+### Passo a passo
+Copiar arquivo .env.example para .env
+```sh
+$ cd icetec-teste
+$ composer install
+$ php artisan key:generate
+```
+Pegar a chave gerada e substituir na APP_KEY em .env //caso necessario
+```sh
+$ npm install
+```
+**Configurar acesso do DB no .env**
+```sh
+$ php artisan migrate
+```
+**Rodar o servidor**
+```sh
+$ php artisan serve
+```
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
